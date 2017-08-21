@@ -130,9 +130,6 @@ RUN mkdir -p /app/nk/1060-NetKernel-SE-DK-3.3.1/modules/mod-smtp-1.1.2 &&\
     cd .. &&\
     ant -Dmod=mod-smtp-1.1.2
 
-#    cp ext-xquery-2.4.3.jar ext-xquery-2.4.4.jar &&\
-#    rm ext-xquery-2.4.4.jar.ORG &&\
-#    sed -i 's|ext-xquery-2.4.3.jar|ext-xquery-2.4.4.jar|g' /app/nk/1060-NetKernel-SE-DK-3.3.1/etc/deployedModules.xml &&\
 RUN mkdir -p /app/nk/1060-NetKernel-SE-DK-3.3.1/modules/ext-xquery-2.4.4 &&\
     cd /app/nk/1060-NetKernel-SE-DK-3.3.1/modules/ext-xquery-2.4.4 &&\
     jar xf ../ext-xquery-2.4.4.jar &&\
