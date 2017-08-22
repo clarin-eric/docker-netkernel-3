@@ -1,7 +1,7 @@
 Basic docker setup for NetKernel 3
 ==================================
 
-This Docker setup provides a [http://www.1060research.com](NetKernel) 3 application server.
+This Docker setup provides a [NetKernel](http://www.1060research.com) 3 application server.
 
 * downloads the last release by 1060 Research
 * patches the kernel
